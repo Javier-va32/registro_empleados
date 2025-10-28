@@ -1,3 +1,13 @@
+# Ingreso de datos para identificar al trabajador. 
+
+def ingresar_datos_usuario():
+    nombre = input("Ingrese el nombre del trabajador: \n>")
+    edad = input("Ingrese la edad del trabajador: \n>")
+    cargo = input("Ingrese el cargo del trabajador: \n>")
+    sueldo_base = float(input("Ingrese el sueldo base del trabajador: \n>"))
+    porcentaje_bono = float(input("Ingrese el porcentaje de bono del trabajador, por ejemplo: 0.2 para 20%: \n>"))
+    return nombre, edad, cargo, sueldo_base, porcentaje_bono
+
 # Bloque de funcinoes para ingresar datos de sueldo, porcentaje y cálculo de bono
 
 def calcular_bono(sueldo_base, porcentaje_bono):
