@@ -6,9 +6,6 @@ def calcular_bono(sueldo_base, porcentaje_bono):
     print ("Cálculo realizado.")
     return bono, sueldo_final
 
-def mensaje_despedida():
-    print("Saliendo del programa... ¡Hasta luego!")
-
 def mostrar_resultados(nombre, edad, cargo, sueldo_base, porcentaje_bono, bono, sueldo_final):
     print(f"Nombre: {nombre} \n")
     print(f"Edad: {edad} \n")
@@ -20,7 +17,6 @@ def mostrar_resultados(nombre, edad, cargo, sueldo_base, porcentaje_bono, bono, 
 
 def mensaje_despedida():
     print("Saliendo del programa... ¡Hasta luego!")    
-
 
 # Menú de usuario
 
